@@ -1,0 +1,23 @@
+/* external */
+:root {
+	--brand: purple;
+}
+
+p {
+	/* variable declaration */
+	--brand-color: #ffc600;
+	color: var(--brand-color);
+	font-size: 3.5em;
+}
+
+h1 + p::first-letter {
+	color: red;
+}
+
+h1 {
+	color: var(--brand-color);
+}
+
+.fourth {
+	color: indigo;
+}

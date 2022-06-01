@@ -1,0 +1,52 @@
+/* internal styling */
+:root {
+	/* global css variable */
+	--brand-color: #000000;
+	--general: 100px;
+}
+
+body {
+	font-family: 'Helvetica Neue, Helvetica, Arial, sans-serif';
+	background-color: var(--brand-color);
+	color: white;
+	padding-left: var(--general);
+}
+
+:not(p) {
+	color: green;
+}
+
+/* declare variable */
+p {
+	--color: #ff0076;
+}
+
+body h1,
+body h2 {
+	/* color: #fcc600; */
+	font-size: 2em;
+}
+
+p#first {
+	color: var(--color);
+}
+
+p.second {
+	color: pink;
+}
+
+/* pseudo class */
+p:hover {
+	text-decoration: underline;
+}
+/* pseudo ELEMENT */
+h1 + p::first-letter {
+	font-size: 200%;
+	color: #fcc600;
+}
+
+p.second {
+	color: white;
+}
+08024952346
+09012207356

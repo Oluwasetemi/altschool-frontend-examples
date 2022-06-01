@@ -1,0 +1,12 @@
+p {
+  color: red;
+  font-weight: 9000;
+}
+
+div.menu-bar li:hover > ul {
+  color: purple;
+}
+
+p.green {
+  color: green;
+}
