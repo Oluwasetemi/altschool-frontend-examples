@@ -1,0 +1,32 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	/* gap: 20px; */
+	/* grid-template-columns: 50px 1fr 1fr 2fr; */
+}
+
+.nav-items a {
+	margin-left: 10px;
+}
+
+.hamburger {
+	display: none;
+}
+.hamburger span {
+	display: block;
+	width: 30px;
+	height: 4px;
+	margin-bottom: 5px;
+	background-color: red;
+	border-radius: 4px;
+	transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 400px) {
+	nav {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+	}
+}
